@@ -5,14 +5,16 @@ local km = vim.keymap
 g.mapleader = " "
 
 o.mouse = 'a'
-o.number = true
+o.relativenumber = true
 
 
 o.expandtab = true
 o.shiftwidth = 2
 o.tabstop = 2
 o.smartindent = true
-
+o.fileformat=unix
+o.fileformats=unix
+o.autoread = true
 
 km.set("t", "<C-x>", "<C-\\><C-n>")
 km.set("v", "J", ":m '>+1<CR>gv=gv")
