@@ -6,7 +6,7 @@ g.mapleader = " "
 
 o.mouse = 'a'
 o.relativenumber = true
-
+o.number = true
 
 o.expandtab = true
 o.shiftwidth = 2
